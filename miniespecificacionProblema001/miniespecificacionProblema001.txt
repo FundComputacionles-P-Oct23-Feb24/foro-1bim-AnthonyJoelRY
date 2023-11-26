@@ -1,0 +1,19 @@
+ 1°  Inicio
+ 2°  limite,i[0,n]
+ 3°  numeroInicial,i[0,n]
+ 4°  contador,i[0,n] contador<--0
+ 5°  Escribir "Ingrese el primer numero de la serie: "
+ 6°  Leer numInicial
+ 7°  Escribir "Ingrese el numero limite de la serie que desea ver"
+ 9°  Leer limite
+ 10° contador<--numInicial
+ 11° if numInicial > 0 and limite > 0 Entonces
+ 12°    Escribir "Serie de numeros del "+numInicial+" hasta el "+limite+":"
+ 13°    Mientras contador <= limite Entonces 
+ 14°             Escribir "<o>"+"|"+contador+"|"
+ 15°             contador<--contador+1
+ 16°    FinMientras
+ 17° De lo contrario 
+ 18°    Escribir "Números¡Invalidos!"
+ 19° Fin si 
+ 20° Fin
